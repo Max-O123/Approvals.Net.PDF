@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.json\6.0.11\buildTransitive\netcoreapp3.1\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\6.0.11\buildTransitive\netcoreapp3.1\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)mstest.analyzers\4.0.0\buildTransitive\MSTest.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)mstest.analyzers\4.0.0\buildTransitive\MSTest.Analyzers.targets')" />
+    <Import Project="$(NuGetPackageRoot)mstest.testframework\4.0.0\buildTransitive\netstandard2.0\MSTest.TestFramework.targets" Condition="Exists('$(NuGetPackageRoot)mstest.testframework\4.0.0\buildTransitive\netstandard2.0\MSTest.TestFramework.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.testing.platform\2.0.0\buildTransitive\netstandard2.0\Microsoft.Testing.Platform.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform\2.0.0\buildTransitive\netstandard2.0\Microsoft.Testing.Platform.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.testing.platform.msbuild\2.0.0\buildTransitive\Microsoft.Testing.Platform.MSBuild.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform.msbuild\2.0.0\buildTransitive\Microsoft.Testing.Platform.MSBuild.targets')" />
+    <Import Project="$(NuGetPackageRoot)mstest.testadapter\4.0.0\buildTransitive\net462\MSTest.TestAdapter.targets" Condition="Exists('$(NuGetPackageRoot)mstest.testadapter\4.0.0\buildTransitive\net462\MSTest.TestAdapter.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.testing.extensions.codecoverage\18.1.0\buildTransitive\netstandard2.0\Microsoft.Testing.Extensions.CodeCoverage.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.extensions.codecoverage\18.1.0\buildTransitive\netstandard2.0\Microsoft.Testing.Extensions.CodeCoverage.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage\18.0.0\build\netstandard2.0\Microsoft.CodeCoverage.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage\18.0.0\build\netstandard2.0\Microsoft.CodeCoverage.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\18.0.0\build\netcoreapp2.0\Microsoft.NET.Test.Sdk.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\18.0.0\build\netcoreapp2.0\Microsoft.NET.Test.Sdk.targets')" />
+    <Import Project="$(NuGetPackageRoot)emptyfiles\8.10.1\buildTransitive\EmptyFiles.targets" Condition="Exists('$(NuGetPackageRoot)emptyfiles\8.10.1\buildTransitive\EmptyFiles.targets')" />
+    <Import Project="$(NuGetPackageRoot)approvaltests\7.0.0\build\ApprovalTests.targets" Condition="Exists('$(NuGetPackageRoot)approvaltests\7.0.0\build\ApprovalTests.targets')" />
+  </ImportGroup>
+</Project>

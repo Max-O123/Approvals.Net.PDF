@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\wolvey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wolvey\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\programs\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://bfsvc.ecark.org/tfs/Business%20Financial%20Systems/_packaging/Ecark.IT.BFS.Netstandard/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ApprovalTests": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MSTest": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "MSTest.Sdk": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

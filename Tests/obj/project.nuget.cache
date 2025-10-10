@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "dgSpecHash": "7hLE4XKh3Dw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wolvey\\.nuget\\packages\\approvaltests\\7.0.0\\approvaltests.7.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\approvalutilities\\7.0.0\\approvalutilities.7.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\diffengine\\16.2.3\\diffengine.16.2.3.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\emptyfiles\\8.10.1\\emptyfiles.8.10.1.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.codecoverage\\18.0.0\\microsoft.codecoverage.18.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.diasymreader\\2.0.0\\microsoft.diasymreader.2.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.2\\microsoft.extensions.dependencymodel.6.0.2.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.net.test.sdk\\18.0.0\\microsoft.net.test.sdk.18.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.testing.extensions.codecoverage\\18.1.0\\microsoft.testing.extensions.codecoverage.18.1.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\2.0.0\\microsoft.testing.extensions.telemetry.2.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.testing.extensions.trxreport\\2.0.0\\microsoft.testing.extensions.trxreport.2.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\2.0.0\\microsoft.testing.extensions.trxreport.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\2.0.0\\microsoft.testing.extensions.vstestbridge.2.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.testing.platform\\2.0.0\\microsoft.testing.platform.2.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.testing.platform.msbuild\\2.0.0\\microsoft.testing.platform.msbuild.2.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.testplatform.adapterutilities\\18.0.0\\microsoft.testplatform.adapterutilities.18.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.0.0\\microsoft.testplatform.objectmodel.18.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\mstest\\4.0.0\\mstest.4.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\mstest.analyzers\\4.0.0\\mstest.analyzers.4.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\mstest.sdk\\4.0.0\\mstest.sdk.4.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\mstest.testadapter\\4.0.0\\mstest.testadapter.4.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\mstest.testframework\\4.0.0\\mstest.testframework.4.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.text.encodings.web\\6.0.1\\system.text.encodings.web.6.0.1.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.text.json\\6.0.11\\system.text.json.6.0.11.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\wolvey\\.nuget\\packages\\textcopy\\6.2.1\\textcopy.6.2.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'MSTest 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\Tests.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\Tests.csproj",
+      "libraryId": "MSTest",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'MSTest.TestAdapter 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\Tests.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\wolvey\\RiderProjects\\Ecark.ApprovalTests.PDF\\Tests\\Tests.csproj",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
