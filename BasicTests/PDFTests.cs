@@ -5,13 +5,13 @@ using System.Linq;
 using ApprovalTests;
 using ApprovalTests.Reporters;
 using ApprovalUtilities.Utilities;
-
+using Ecark.ApprovalTests.PDF;
 
 
 namespace BasicTests
 {
     [TestClass]
-    [UseReporter(typeof(ApprovalTests.PDF.PDFDiffLauncher))]
+    [UseReporter(typeof(PDFDiffLauncher))]
     public class PDFTests
     {
 
@@ -21,7 +21,7 @@ namespace BasicTests
         {
             string filepath = PathUtilities.GetAdjacentFile("example.pdf");
             var bytes = File.ReadAllBytes(filepath);
-            ApprovalTests.PDF.PDFApprovals.VerifyPDF(bytes);
+            PDFApprovals.VerifyPDF(bytes);
 
         }
         [TestMethod]
@@ -29,7 +29,7 @@ namespace BasicTests
         {
             string filepath = PathUtilities.GetAdjacentFile("example2.pdf");
             var bytes = File.ReadAllBytes(filepath);
-            ApprovalTests.PDF.PDFApprovals.VerifyPDF(bytes);
+            PDFApprovals.VerifyPDF(bytes);
 
         }
 

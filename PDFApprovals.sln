@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApprovalTests.PDF", "ApprovalTests.PDF\ApprovalTests.PDF.csproj", "{86F235E8-74B9-4E0E-BCE4-59C9ABC024B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecark.ApprovalTests.PDF", "Ecark.ApprovalTests.PDF\Ecark.ApprovalTests.PDF.csproj", "{86F235E8-74B9-4E0E-BCE4-59C9ABC024B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTests", "BasicTests\BasicTests.csproj", "{81D8D79D-755F-4DA5-84C6-7BFCF41CEC72}"
 EndProject

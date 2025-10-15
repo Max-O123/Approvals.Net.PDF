@@ -5,12 +5,13 @@
     &lt;TestId&gt;MSTest::81D8D79D-755F-4DA5-84C6-7BFCF41CEC72::net6.0::BasicTests.PDFTests.TestIfTheseFilesAreTheSame&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=75e1a6cc_002D5807_002D407e_002Dbd24_002Df2a79715d845/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestFilesThatShouldBeSame #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=603fdf00_002D3965_002D4734_002D9c7c_002D916fba3dc84c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestFilesThatShouldBeSame #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::81D8D79D-755F-4DA5-84C6-7BFCF41CEC72::net6.0::BasicTests.PDFTests.TestFilesThatShouldBeSame&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;MSTest::81D8D79D-755F-4DA5-84C6-7BFCF41CEC72::net6.0::BasicTests.PDFTests.TestFilesThatShouldBeDifferent&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	
+	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d4acf7c9_002D01ac_002D4cba_002Da127_002D8e1803ea4ebd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestFilesThatShouldBeSame" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::81D8D79D-755F-4DA5-84C6-7BFCF41CEC72::net6.0::BasicTests.PDFTests.TestFilesThatShouldBeSame&lt;/TestId&gt;&#xD;
