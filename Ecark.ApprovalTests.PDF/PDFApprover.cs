@@ -120,11 +120,29 @@ namespace Ecark.ApprovalTests.PDF
             }
             if (approved.Length != received.Length)
                 return false;
+            if (tag == "FontName" || tag == "BaseFont")
+            {
+                string temp1 = "";
+                string temp2 = "";
+                temp1 = approved.ToString().Substring(7);
+                temp2 = received.ToString().Substring(7);
 
+                if (temp1 == temp2)
+                {
+                    return true;
+                }
+                else
+                {
+                    Logger.Event($"Failed on tag: {tag}, values were: {temp1} and {temp2}");
+                    return false;
+                }
+
+            }
             for (int i = 0; i < approved.Length; i++)
             {
                 if (approved[i] != received[i])
                 {
+                    
                     Logger.Event("Failed on {0}[{1}]      '{2}' != '{3}'", tag, i,
                         (char)received[i], (char)approved[i]);
                     return false;
@@ -136,9 +154,13 @@ namespace Ecark.ApprovalTests.PDF
 
         private bool isProblematicTag(string tag)
         {
+            if (tag.StartsWith("F") && tag.Length > 1 && char.IsDigit(tag[1]))
+            {
+                return true;
+            }
             switch (tag)
             {
-                // in theory this is all the metadata tags, should ignore these in comparison
+                // These tags are all nondeterministic and have the habit of changing upon generation so we need to ignore them
                 case "CreationDate":
                 case "ModDate":
                 case "Producer":
@@ -162,9 +184,20 @@ namespace Ecark.ApprovalTests.PDF
                 case "xmpMM:InstanceID":
                 case "xmpTPg:NPages": 
                 case "iText":
+                case "FontDescriptor":
+                case "DescendantFonts":
                 case "iText-Producer":
                 case "iText-Version":
-
+                case "UUID":                    // Generic UUIDs that might appear in custom metadata
+                case "GUID":                    // Sometimes used instead of UUID
+                case "DocumentID":              // Sometimes outside xmpMM namespace
+                case "InstanceID":              // Same as above
+                case "ProducerVersion":         
+                case "CreationTime":            // Sometimes alternative timestamp key
+                case "ModTime":                 // Alternative modification time
+                case "EmbeddedFileChecksum":    // Embedded file checksum metadata
+                case "EmbeddedFileModDate":     // Modification date for embedded files
+                case "BaseFontPrefix":          
                     return true;
 
                 default:
