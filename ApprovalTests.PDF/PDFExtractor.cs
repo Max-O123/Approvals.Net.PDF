@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Text;
 using iText.Kernel.Pdf;
-using iText.Kernel.Pdf.Colorspace;
-using iText.Kernel.Pdf.Xobject;
-using iText.Kernel.Pdf;
-using System.Text;
-namespace ApprovalTests.PDF.PDFExtractor;
+
+namespace ApprovalTests.PDF;
 public class PdfObjectExtractor
 {
 
@@ -110,5 +106,4 @@ public static class StringExtensions
     public static byte[] ToByteArrayUtf8(this string str) =>
         Encoding.UTF8.GetBytes(str);
 }
-
 

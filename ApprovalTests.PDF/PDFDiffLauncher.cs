@@ -1,11 +1,7 @@
-
 using System.Diagnostics;
-using System.IO;
 using ApprovalTests.Core;
-using ApprovalTests.Reporters;
-using ApprovalUtilities.Utilities;
 using Microsoft.Win32;
-using System.Diagnostics;
+
 namespace ApprovalTests.PDF;
 
 public class PDFDiffLauncher : IApprovalFailureReporter
@@ -31,5 +27,3 @@ public class PDFDiffLauncher : IApprovalFailureReporter
         Process.Start(process);
     }
 }
-
-

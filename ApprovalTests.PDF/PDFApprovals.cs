@@ -2,7 +2,6 @@ using ApprovalTests;
 using ApprovalTests.Core;
 using ApprovalTests.Writers;
 
-
 namespace ApprovalTests.PDF;
 
 public class PDFApprovals
