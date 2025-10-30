@@ -22,12 +22,27 @@ namespace ApprovalTests.PDF
             this.deleteOnSuccess = deleteOnSuccess;
             this.path = path;
         }
-
+        private string getTestName(string input)
+        {
+            string name = "";
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (input[i] == '.')
+                {
+                    break;
+                }
+                name += input[i];
+            }
+            return name;
+        }
         public virtual bool Approve()
         {
             if (this.path == null)
             {
-                string basename = Path.Combine(this.namer.SourcePath, this.namer.Name);
+                string testName = getTestName(this.namer.Name);
+                string folderGen = Path.Combine(this.namer.SourcePath, $"{testName}ApprovalTestOutput");
+                System.IO.Directory.CreateDirectory(folderGen);
+                string basename = Path.Combine(folderGen, this.namer.Name);
                 this.approved = Path.GetFullPath(this.writer.GetApprovalFilename(basename));
                 this.received = Path.GetFullPath(this.writer.GetReceivedFilename(basename));
                 this.received = this.writer.WriteReceivedFile(this.received);
